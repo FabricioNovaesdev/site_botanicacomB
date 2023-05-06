@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header h1 { 
+    font-family: 'Lobster', cursive;
+    color: #FFF428;
+    font-size: 50px;
+}
+
+header {
+    padding: 14px;
+    background-color: #FCC2FC;
+    color: #fff;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none; 
+    padding: 15px;
+    border-radius: 25px;
+}
+.cabecalho { 
+    max-width: 1200;
+    width: 100%;
+    margin: 0;
+}
+
+header .cabecalho { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav li {
+    display:inline-block;
+    margin: 20px;
+    font-size: 20px;
+    
+    
+}
+
+.conteudo { 
+    justify-content: space-around;
+}
+
+.conteudo img { 
+height: 790px;
+}
+
+.conteudo-txt {
+    font-family: 'Lobster', cursive;
+    
+}
+
+.conteudo-txt-comb {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .conteudo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0%;
+
+}
+
+section {
+    max-width: 1500px; 
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.conteudo-txt {
+    margin-top: 160px;
+    font-size: 125px;
+    color:#40E8BD ;
+}
+
+.conteudo-txtcom {
+    margin-top: -200px;
+    font-size: 205px;
+    color:#40E8BD ;
+}
+
+.conteudo-txt-b {
+    font-family: 'Lobster', cursive;
+    font-size: 300px;
+    color:#FFF428 ;
+    margin-top: -100px;
+
+}
+
+
+.conteudo-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo-2-calendario img { 
+    height: 50px;
+}
+
+.conteudo-2-calendario h3 {
+    color: #40E8BD;
+    font-size: 30px;
+}
+
+form textarea {
+    resize: none; 
+    width: 80px;
+}
+
+form input,
+form textarea { 
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+form button {
+    width: 340px;
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor:pointer;
+}
+
+form button { 
+    background-color: #1E6F5C;
+    color:#ecf0f1 ;
+    border: none;
+    cursor:pointer;
+    border-radius: 15px;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+
+form button:hover { 
+    background-color: #40E8BD;
+}
+
+.midia-img a {  
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+.midia h3 {
+    color: #40E8BD;
+    font-size: 30px;
+}
+
+.midia img { 
+    height: 50px; 
+}
+
+div .midia-img {
+    margin: 15px;
+    text-decoration: none
+
+}
+
+.mapa img {
+    height: 50px;
+}
+
+.mapa h3 {
+    color: #40E8BD; 
+    font-size: 30px;
+}
+
+footer {
+    background-color: #FCC2FC;
+    margin:auto ;
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
